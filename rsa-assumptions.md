@@ -120,7 +120,7 @@ $$
 
 ## Low Order Assumption
 
-The **Low Order assumption**. For any probabilistic polynomial time adversary $\mathcal{A}$ finding any element of low order is hard: 
+The **Low Order assumption**. For any probabilistic polynomial time adversary $$\mathcal{A}$$ finding any element of low order is hard: 
 
 $$ \displaystyle
 \mathrm{Pr}
@@ -134,7 +134,7 @@ $$
 
 ## Fractional Root Assumption
 
-The **Fractional Root assumption**. For any probabilistic polynomial time adversary $\mathcal{A}$ 
+The **Fractional Root assumption**. For any probabilistic polynomial time adversary $$\mathcal{A}$$
 
 $$ \displaystyle
 \mathrm{Pr}
@@ -149,7 +149,7 @@ $$
 ## Diffie-Hellman Assumption
 
 The **Diffie-Hellman Assumption** holds for
-$\mathrm{GGen}$ if no efficient $\mathcal{A}$ can compute $g^{ef}$ from $g,g^e,g^f$ for random $g,e,f$:
+$$\mathrm{GGen}$$ if no efficient $$\mathcal{A}$$ can compute $$g^{ef}$$ from $$g,g^e,g^f$$ for random $$g,e,f$$:
 
 $$ \displaystyle
 \mathrm{Pr}
@@ -164,7 +164,7 @@ $$
 
 **Discrete Logarithm** assumption 
 holds for
-$\mathrm{GGen}$ if for all efficient $\mathcal{A}$:
+$$\mathrm{GGen}$$ if for all efficient $$\mathcal{A}$$:
 
 $$ \displaystyle
 \mathrm{Pr}
@@ -183,7 +183,7 @@ The **Factoring** assumption states that for random primes $$p,q$$ it is difficu
 
 ## Trivial reductions
 
- * The Adaptive Root assumption implies the Low Order assumption. Indeed, for an element $w$ of order $l$ one can compute a $q$-th root by setting $$u = w^{q^{-1}\bmod{l}}$$. 
+ * The Adaptive Root assumption implies the Low Order assumption. Indeed, for an element $$w$$ of order $$l$$ one can compute a $$q$$-th root by setting $$u = w^{q^{-1}\bmod{l}}$$. 
  * The Strong RSA assumption implies the RSA assumption (trivially).
  * The Strong RSA assumption implies the QR-Strong assumption (almost trivial, due to the size of $$QR_N$$).
  * The Low Order assumption unconditionally holds in $$QR_N$$ because it contains no elements of low order.
