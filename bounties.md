@@ -21,7 +21,7 @@ A bounty of $10,000 will be given for:
 
 ## $3,000
 
- * Any algorithm that solves the **Low Order Problem** or **Adaptive Root Problem** through any method that is independent of factoring the modulus, and is faster than any known algorithm that is independent of factoring (*) [^2]
+ * Any algorithm that solves the **Low Order Problem** or **Adaptive Root Problem** through any method that is independent of factoring the modulus, and is faster than any known algorithm that is independent of factoring [^2]
  * Other unknown reductions from the **Adaptive Root Assumption** or the **Low Order Assumption** to one of the other assumptions listed [here](rsa-assumptions)
 
 [^2]: Whether a method is independent of factoring the modulus will be judged by a cryptographer appointed by the Ethereum Foundation
