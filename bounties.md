@@ -14,8 +14,8 @@ To improve the cryptanalysis of new RSA assumptions needed for Verifiable Delay 
 
 A bounty of $10,000 will be given for:
 
- * An algorithm that solves the **Adaptive Root Problem** asymptotically faster than the fastest known algorithm for factoring an RSA number.[^1]
- * Reducing the **Adaptive Root Assumption** to one of these assumptions: **Strong RSA Assumption**, **RSA Assumption**, **Diffie-Hellman Assumption**, or proving the Adaptive Root Assumption in the **Pseudo-free group model**.
+  * An algorithm that solves the **Adaptive Root Problem** in an RSA group asymptotically faster than the fastest known algorithm for factoring an RSA number.[^1]
+ * Reducing the **Adaptive Root Assumption** to one of these assumptions: **Strong RSA Assumption**, **RSA Assumption**, **Diffie-Hellman Assumption**, or proving the Adaptive Root Assumption is (non-)equivalent to Factoring in the **Generic Ring Model**.
 
 [^1]: At this point in time, the complexity of the General Number Field Sieve is $$L_n\left[\frac{1}{3}, \sqrt[3]{\frac{64}{9}}\right]$$.
 
