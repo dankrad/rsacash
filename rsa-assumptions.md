@@ -89,8 +89,8 @@ square roots is easy [1].
     
 The **Adaptive Root Assumption** holds for
 $$\mathrm{GGen}$$ if there is no efficient adversary $$(\mathcal{A}_0, \mathcal{A}_1)$$ that succeeds in the following task. First,
-$$\mathcal{A}_0$$  outputs an element $$w\in \mathbb{G}$$ and some state $$st$$. Then, a random prime in $$\mathrm{\mathrm{Pr}imes}(\lambda)$$ is chosen
-and $$\mathcal{A}_1(w,l,st)$$ outputs $$w^{1/l}\in\mathbb{G}$$. For all efficient $$(\mathcal{A}_0, \mathcal{A}_1)$$:
+$$\mathcal{A}_0$$  outputs an element $$w\in \mathbb{G}/\{-1, 1\}$$ and some state $$st$$. Then, a random prime in $$\mathrm{Primes}(\lambda)$$ is chosen
+and $$\mathcal{A}_1(w,l,st)$$ outputs $$w^{1/l}\in\mathbb{G}/\{-1,1\}$$. For all efficient $$(\mathcal{A}_0, \mathcal{A}_1)$$:
 
 $$ \displaystyle
 \mathrm{Pr}
@@ -126,7 +126,7 @@ $$ \displaystyle
 \mathrm{Pr}
 \begin{bmatrix}
 &\mathbb{G}\xleftarrow{\$}\mathrm{GGen}(\lambda)\\
-u^l = 1,\;u\neq 1 :
+u^l = 1,\;u\not\in\{1,-1\} :
 & (u,l) \xleftarrow{} \mathcal{A}(\mathbb{G})\\
 & \text{and }l<2^{poly(\lambda)}
 \end{bmatrix}\leq \mathrm{negl}(\lambda)
@@ -162,7 +162,7 @@ $$
 
 ## Discrete Logarithm
 
-**Discrete Logarithm** assumption 
+The **Discrete Logarithm** assumption 
 holds for
 $$\mathrm{GGen}$$ if for all efficient $$\mathcal{A}$$:
 
@@ -191,7 +191,7 @@ The **Factoring** assumption states that for random primes $$p,q$$ it is difficu
 
 ## Nontrivial reductions
 
-* The Discrete Logarithm assumption in the RSA group is equivalent to the Factoring assumption. [2]
+* The Factoring assumption implies the Discrete Logarithm assumption in an RSA group. [2]
 
 * The Strong RSA assumption is equivalent to the Fractional Root Assumption in the group of quadratic residues modulo $$N$$. [3]
 
@@ -226,7 +226,6 @@ Let $$X$$ be a set of variables and consider equations of form $$w_1 = w_2$$ whe
 
 Informally, a group is pseudo-free if no efficient algorithm can find a non-trivial relation among randomly chosen group elements. Recall that a **safe prime** $$p$$ has form $$p=2p'+1$$ where $$p'$$ is also prime. It is unknown if there are infinitely many safe primes.
 
-
 * Assume that $$N$$ is the product of two safe primes. Then the Strong RSA assumption is equivalent to the RSA group being pseudo-free. [9, 10]
 
 * The Order assumption holds in a pseudo-free group. [8]
@@ -238,11 +237,10 @@ Therefore, the Strong RSA assumption implies the Order assumption if $$N$$ is th
 # References
 
 [1] Benedikt Bunz, Ben Fisch, and Alan Szepieniec. Transparent snarks from dark compilers. Cryptology
-ePrint Archive, Report 2019/1229, 2019. https://eprint.iacr.org/2019/1229.
+ePrint Archive, Report 2019/1229, 2019. [https://eprint.iacr.org/2019/1229](https://eprint.iacr.org/2019/1229).
 
-[2] Eric Bach. Discrete logarithms and factoring. Computer Science Division, University of Cal-
-ifornia Berkeley, 1984. available at https://www2.eecs.berkeley.edu/Pubs/TechRpts/1984/
-CSD-84-186.pdf.
+[2] Eric Bach. Discrete logarithms and factoring. Computer Science Division, University of California 
+Berkeley, 1984. Available at [https://www2.eecs.berkeley.edu/Pubs/TechRpts/1984/CSD-84-186.pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1984/CSD-84-186.pdf).
 
 [3] Ronald Cramer and Victor Shoup. Signature schemes based on the strong RSA assumption. In ACM
 Conference on Computer and Communications Security, pages 46–51. ACM, 1999.
@@ -254,7 +252,7 @@ in general groups. In EUROCRYPT, volume 2332 of Lecture Notes in Computer Scienc
 EUROCRYPT, volume 5479 of Lecture Notes in Computer Science, pages 36–53. Springer, 2009.
 
 [6] Divesh Aggarwal, Ueli Maurer, and Igor Shparlinski. The equivalence of strong rsa and factoring in
-the generic ring model of computation. 2011. available at https://hal.inria.fr/inria-00607256/
+the generic ring model of computation. 2011. Available at [https://hal.inria.fr/inria-00607256/](https://hal.inria.fr/inria-00607256/)
 document.
 
 [7] Daniele Micciancio. The RSA group is pseudo-free. In EUROCRYPT, volume 3494 of Lecture Notes
