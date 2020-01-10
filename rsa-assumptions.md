@@ -6,7 +6,7 @@ permalink: /rsa-assumptions/
 
 # RSA Assumptions
 
-![Relations between RSA assumptions](assets/img/RSA-ref.svg){:class="img-responsive"}
+![Relations between RSA assumptions](/assets/img/RSA-ref.svg){:class="img-responsive"}
 
 # Definitions
 
