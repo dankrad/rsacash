@@ -22,7 +22,7 @@ A bounty of $10,000 will be given for:
 ## $3,000
 
  * The most interesting paper published on the **Adaptive Root Assumption** published in 2020. [^2]
- * Other unknown reductions from the **Adaptive Root Assumption** or the **Low Order Assumption** to one of the other assumptions listed [here](rsa-assumptions).
+ * Other unknown reductions from the **Adaptive Root Assumption** or the **Low Order Assumption** to one of the other assumptions listed [here](/rsa-assumptions).
 
 [^2]: The most interesting paper will be judged by a cryptographer appointed by the Ethereum Foundation, and cannot be appealed.
 
@@ -34,7 +34,7 @@ A bounty of $10,000 will be given for:
 
 # Assumptions
 
-For more details on the assumptions, see here: [RSA Assumptions](rsa-assumptions).
+For more details on the assumptions, see here: [RSA Assumptions](/rsa-assumptions).
 
 # Concrete instances
 
