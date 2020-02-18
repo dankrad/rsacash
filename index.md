@@ -18,6 +18,6 @@ Both assumptions were formalized in June 2018 for two RSA Verifiable Delay Funct
 
 ## Where now?
 
- * Straight to the [bounties](bounties)
+ * Straight to the [bounties](bounties) and [concrete instance bounties](bounty-instances)
  * More on the [RSA assumptions](rsa-assumptions)
  * More on [Verifiable Delay Functions](https://vdfresearch.org)

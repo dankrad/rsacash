@@ -38,4 +38,18 @@ For more details on the assumptions, see here: [RSA Assumptions](/rsa-assumption
 
 # Concrete instances
 
-ETH-denominated bounties for solving concrete instances of the **Adaptive Root Problem** will be announced here soon. Stay tuned!
+Bounties for solving the RSA adaptive root problem in concrete RSA groups have been instantiated on an Ethereum smart contract:
+
+|--------------|-----------|
+|Modulus (bits)|Bounty     |
+|--------------|-----------|
+|625           | 1 ETH     |
+|--------------|-----------|
+|768           | 4 ETH     |
+|--------------|-----------|
+|1024          | 8 ETH     |
+|--------------|-----------|
+|2048          | 16 ETH    |
+|--------------|-----------|
+
+For more details, see [/bounty-instances](bounty-instances)
