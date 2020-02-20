@@ -53,6 +53,6 @@ Bounty:  16 ETH
 
 In order to redeem a bounty, you must be able to solve an instance of the adaptive root problem modulo the given modulus. The exact documentation on how to solve such an instance can be found in the readme to the [contract repository](https://github.com/dankrad/rsa-bounty).
 
-The bounty contract is deployed at address [0x754e0B614b7359b22cF22458530798242D564560](https://etherscan.io/address/0x754e0b614b7359b22cf22458530798242d564560) on the Ethereum blockchain.
+The bounty contract is deployed at address [0x62A940646e8F9FCEAc28454414Bb6133a54055Ea](https://etherscan.io/address/0x62a940646e8f9fceac28454414bb6133a54055ea) on the Ethereum blockchain.
 
 If you need help redeeming a bounty please write to [dankrad@ethereum.org](mailto:dankrad@ethereum.org).
