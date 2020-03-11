@@ -8,7 +8,9 @@ permalink: /bounty-instances/
 
 To improve the cryptanalysis of new RSA assumptions needed for Verifiable Delay Functions (VDFs), in addition to the [previous paper bounties](/bounties), the Ethereum Foundation announced the following bounties for solving concrete instances of the [adaptive root problem](/rsa-assumptions) at the Stanford Blockchain Conference 2020:
 
-## Challenge 0
+## Challenge 0 -- CLAIMED
+
+This bounty has now been claimed. That means you cannot 
 
 ```
 Modulus:  0xbdbbd27309fc78576ef48a2ed1fd835f9a35c4b23ab4191d476fc54245a04c588af
