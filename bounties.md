@@ -52,4 +52,4 @@ Bounties for solving the RSA adaptive root problem in concrete RSA groups have b
 |2048          | 16 ETH    |
 |--------------|-----------|
 
-For more details, see [/bounty-instances](bounty-instances)
+For more details, see [bounty-instances](/bounty-instances)
