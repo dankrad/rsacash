@@ -4,3 +4,5 @@ public
 .jekyll-metadata
 .env
 .env.build
+
+.now
