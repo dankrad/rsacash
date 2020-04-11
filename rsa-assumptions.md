@@ -186,8 +186,9 @@ The **Factoring** assumption states that for random primes $$p,q$$ it is difficu
  * The Adaptive Root assumption implies the Low Order assumption. Indeed, for an element $$w$$ of order $$l$$ one can compute a $$q$$-th root by setting $$u = w^{q^{-1}\bmod{l}}$$. 
  * The Strong RSA assumption implies the RSA assumption (trivially).
  * The Strong RSA assumption implies the QR-Strong assumption (almost trivial, due to the size of $$QR_N$$).
- * The Low Order assumption unconditionally holds in $$QR_N$$ because it contains no elements of low order.
- * If the RSA modulus is the product of strong primes then the Order assumption in $$QR_N$$ is equivalent to factoring.
+ * For $$N=pq$$, where $$p \neq q$$ are strong primes, the Low Order assumption unconditionally holds in $$QR_N$$, because it contains no elements of low order.
+ * For an RSA modulus $$N$$, the Order assumption in the multiplicative group mod $$N$$ is equivalent to factoring.
+ * The Low Order assumption in the multiplicative group mod $$N$$ implies factoring in the case where $$l$$ is even and $$u^(l/2) /neq -1 (mod N)$$. Indeed, in this case, given $$(u,l)$$, one can apply the classical step in Shor's factoring algorithm.
 
 ## Nontrivial reductions
 
