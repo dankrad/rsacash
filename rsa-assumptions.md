@@ -188,7 +188,7 @@ The **Factoring** assumption states that for random primes $$p,q$$ it is difficu
  * The Strong RSA assumption implies the QR-Strong assumption (almost trivial, due to the size of $$QR_N$$).
  * For $$N=pq$$, where $$p \neq q$$ are safe primes, the Low Order assumption unconditionally holds in $$QR_N$$, because it contains no elements of low order.
  * For an RSA modulus $$N$$, the Order assumption in the multiplicative group mod $$N$$ is equivalent to factoring.
- * The Low Order assumption in the multiplicative group mod $$N$$ implies factoring in the case where $$l$$ is even and $$u^(l/2) /neq -1 (mod N)$$. Indeed, in this case, given $$(u,l)$$, one can apply the classical step in Shor's factoring algorithm.
+ * The Low Order assumption in the multiplicative group mod $$N$$ implies factoring in the case where $$l$$ is even and $$u^(l/2) /neq -1 (mod N)$$. Indeed, in this case, $$u^l-1$$ admits a non-trivial decomposition modulo N, which leads to factoring
 
 ## Nontrivial reductions
 
