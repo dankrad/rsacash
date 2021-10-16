@@ -40,13 +40,21 @@ For more details on the assumptions, see here: [RSA Assumptions](/rsa-assumption
 
 The RSA VDF depends critically on the sequentiality of modular squaring. To this end the [paper](https://eprint.iacr.org/2020/1461) by Williams and Wesolowski explored lower bounds in modular squaring, and announced the following bounties for improving them (please refer to the paper for details and definitions):
 
-* **$5,000** Prove that for all $$n \geq 128$$, SUM on $$n$$-bit inputs requires depth at least $$c \log_2(n)$$ for some $$c > 2$$. (That is, improve upon Krapchenko's lower bound for **SUM**)
-   
-* **$5,000** Prove that for all $$n \geq 128$$, **SUM** on $$n$$-bit inputs requires depth at least $$4 \log_2(n)$$. (That is, prove the "reasonable hypothesis" stated immediately after Theorem 2 of the paper. This $5,000 bounty is in addition to the $5,000 bounty above.)
+## $5,000
 
-* **$2,000** Prove that there is a $$c < 4$$ such that for all $$n \geq 128$$, **SUM** has circuits of depth at most $$c \log_2(n)$$. (That is, refute the "reasonable hypothesis", and do so for all large enough input lengths $$n$$.)
+* Prove that for all $$n \geq 128$$, SUM on $$n$$-bit inputs requires depth at least $$c \log_2(n)$$ for some $$c > 2$$. (That is, improve upon Krapchenko's lower bound for **SUM**)
    
-* **$3,000** Improve the average-case depth lower bound Theorem 3 from the paper to $$c \log_2(n)$$ for some $$c > 1$$, for any algorithm computing **MS-MOD2** on at least $$51\%$$ of the inputs.
+## $5,000
+
+ * Prove that for all $$n \geq 128$$, **SUM** on $$n$$-bit inputs requires depth at least $$4 \log_2(n)$$. (That is, prove the "reasonable hypothesis" stated immediately after Theorem 2 of the paper. This $5,000 bounty is in addition to the $5,000 bounty above.)
+
+## $2,000
+
+ * Prove that there is a $$c < 4$$ such that for all $$n \geq 128$$, **SUM** has circuits of depth at most $$c \log_2(n)$$. (That is, refute the "reasonable hypothesis", and do so for all large enough input lengths $$n$$.)
+   
+## $3,000
+
+ * Improve the average-case depth lower bound Theorem 3 from the paper to $$c \log_2(n)$$ for some $$c > 1$$, for any algorithm computing **MS-MOD2** on at least $$51\%$$ of the inputs.
 
 # Concrete instances
 
