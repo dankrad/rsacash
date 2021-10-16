@@ -10,7 +10,7 @@ To improve the cryptanalysis of new RSA assumptions needed for Verifiable Delay 
 
 ## Challenge 0 -- CLAIMED
 
-This bounty has now been claimed. That means you cannot 
+This bounty has now been claimed. That means you cannot redeem this bounty anymore but obviously feel free to use it to test your algorithms.
 
 ```
 Modulus:  0xbdbbd27309fc78576ef48a2ed1fd835f9a35c4b23ab4191d476fc54245a04c588af
